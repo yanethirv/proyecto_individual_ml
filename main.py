@@ -119,7 +119,7 @@ def get_director(nombre_director):
             movie={
                     "titulo":moviesFilter.title.to_list()[i],
                     "anio":moviesFilter.release_year.to_list()[i],
-                    "retorno_pelicula":float(round(moviesFilter['return'].sum(),2)),
+                    "retorno_pelicula":round(moviesFilter['return'],2).to_list()[i],
                     "budget":moviesFilter.budget.to_list()[i],
                     "revenue_pelicula":moviesFilter.revenue.to_list()[i]
                 }
