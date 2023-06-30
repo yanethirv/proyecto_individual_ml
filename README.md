@@ -2,6 +2,9 @@
 
 En este primer proyecto implementamos un Sistema de Recomendación de Películas. El mismo consta de 3 Fases: Transformaciones de los datos suministrados, Análisis Exploratorio de Datos (EDA) y Machine Learning (ML).
 
+### Video explicativo [link](https://somup.com/c01vrAzlV4)
+
+
 **Importante: Nos fue suministrado dos fuentes de datos en formato .csv: **_movies_dataset.csv_** y **_credits.csv_**. Dado que el archivo credits.csv es un archivo demasiado pesado, se tomó la decisión de convertirlo a formato .parquet, y así evitar inconvenientes a la hora de subirlo al repositorio de Github.**
 #
 #  Fase 1 - Transformaciones (ETL)
