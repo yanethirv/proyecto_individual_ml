@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 import pandas as pd
-from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer #para convertir las caracteristicas combinadas en una matriz
 from sklearn.neighbors import NearestNeighbors
 
